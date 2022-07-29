@@ -20,7 +20,10 @@
   height: 100%;
   flex-direction: row;
 
-  padding: 3rem 2rem 0rem;
+
+  //padding: 3rem 4rem ;
+  padding-top: 3rem;
+  padding-left: 5rem;
 
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
