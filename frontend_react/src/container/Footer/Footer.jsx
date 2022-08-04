@@ -5,7 +5,6 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
 import './Footer.scss';
 
-import React from 'react';
 
 const Footer = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -81,7 +80,6 @@ const Footer = () => {
   );
 };
 
-export default MyComponent;
 
 
 export default AppWrap(
